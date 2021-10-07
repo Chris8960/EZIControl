@@ -20,7 +20,7 @@ int watchdog = 1000;
 
 void setup() {
   // put your setup code here, to run once:
-Serial.begin(115200);
+Serial.begin(115200); //setup to run 7 bytes between ezi and arduino
 dac.begin(0x60);
 }
 
